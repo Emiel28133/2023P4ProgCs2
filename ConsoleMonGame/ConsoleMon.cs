@@ -12,6 +12,7 @@ namespace ConsoleMonGame
         internal int energy;
         internal string name;
         private Skill skills;
+        internal Element weakness;
 
         internal void TakeDamage(int damage)
         {
@@ -20,7 +21,7 @@ namespace ConsoleMonGame
 
         internal void DepleteEnergy(int energy)
         {
-            this.energy = energy - energy;
+            this.energy -= energy;
         }
     }
 }

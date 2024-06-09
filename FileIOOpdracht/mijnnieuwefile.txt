@@ -1,0 +1,2 @@
+Dit is de eerste regel in mijnnieuwefile.txt
+Dit is een extra toegevoegde regel.
